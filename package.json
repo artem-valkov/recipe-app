@@ -1,13 +1,21 @@
 {
-    "name": "hello-world",
-    "description": "Sample NodeJs web application",
-    "version": "0.0.1",
-    "private": true,
-    "devDependencies": {
-        "mocha": "5.0.0",
-        "unit.js": "2.0.0"
-    },
-    "scripts": {
-        "test": "mocha --recursive tests"
-    }
+  "name": "recieptapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artem Valkov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consolidate": "^0.15.1",
+    "dust": "^0.3.0",
+    "dustjs-helpers": "^1.7.4",
+    "dustjs-linkedin": "^2.7.5",
+    "express": "^4.17.1",
+    "express-promise-router": "^3.0.3",
+    "pg": "^7.11.0"
+  }
 }
